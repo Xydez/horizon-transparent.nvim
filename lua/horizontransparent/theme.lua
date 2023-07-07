@@ -1,5 +1,5 @@
 
-local c = require('horizon-transparent.palette')
+local c = require('horizontransparent.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
