@@ -1,14 +1,13 @@
 [information]
-name = "horizon"
+name = "horizon-transparent"
 background = "dark"
 author = 'Christian Chiarulli <chrisatmachine@gmail.com>'
 
 [palette]
 fg = '#8B8D8F'
-bg = '#1D1F27'
-
+bg = 'NONE' #'#1D1F27'
 alt_fg = '#8B8D8F'
-alt_bg = '#1D1F27'
+alt_bg = 'NONE' #'#1D1F27'
 dark = '#16161C'
 accent = '#6C6F93'
 popup_back = '#16161C'
@@ -19,7 +18,7 @@ search_blue = '#083C5A'
 white = '#8B8D8F'
 gray = '#4B4C53'
 reference = '#2E303E'
-dark_gray = '#21252E'
+dark_gray = 'NONE' #'#21252E'
 context = '#6C6F93'
 light_gray = '#c8ccd4'
 tree_gray = '#1D1F27'

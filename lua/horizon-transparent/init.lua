@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('horizon.theme')
+local theme = require('horizon-transparent.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
@@ -10,7 +10,7 @@ M.setup = function()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = 'horizon'
+  vim.g.colors_name = 'horizon-transparent'
 
   theme.set_highlights()
 end
